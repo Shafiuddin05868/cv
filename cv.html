@@ -17,17 +17,22 @@
     <style>
       p,
       a {
-        color: #374151;
+        color: gray;
       }
-      /* p {
-        font-family: "Times New Roman", Times, serif;
-      } */
       .sidebar-text {
+        color: #111827;
+        line-height: 1.6;
+      }
+      .main-content li {
         color: #1f2937;
+        line-height: 1.8;
+      }
+      .main-content p {
+        color: #374151;
       }
     </style>
   </head>
-  <body class="bg-gray-100 ">
+  <body class="bg-gray-100">
     <div class="max-w-6xl mx-auto bg-white">
       <!-- Header -->
       <div class="px-12 pt-10 pb-4">
@@ -39,22 +44,18 @@
         </p>
 
         <!-- Contact Info -->
-        <div class="flex flex-wrap gap-x-6 gap-y-2 text-sm text-gray-700">
+        <div class="flex flex-wrap gap-x-6 gap-y-2 text-sm text-gray-800">
           <div class="flex items-center gap-2">
             <i class="fas fa-map-marker-alt"></i>
             <span>1st Lane, South Manda, Dhaka-1214</span>
           </div>
           <div class="flex items-center gap-2">
             <i class="fas fa-phone-alt"></i>
-            <a href="tel:+8801799979556" class="hover:text-gray-900"
-              >+8801799979556</a
-            >
+            <a href="tel:+8801799979556">+8801799979556</a>
           </div>
           <div class="flex items-center gap-2">
             <i class="fas fa-envelope"></i>
-            <a
-              href="mailto:shafiuddin05868@gmail.com"
-              class="hover:text-gray-900 underline"
+            <a href="mailto:shafiuddin05868@gmail.com"
               >shafiuddin05868@gmail.com</a
             >
           </div>
@@ -62,15 +63,13 @@
             <i class="fab fa-linkedin"></i>
             <a
               href="https://www.linkedin.com/in/shafiuddin-chowdury"
-              class="hover:text-gray-900 underline"
+              class="underline"
               >LinkedIn</a
             >
           </div>
           <div class="flex items-center gap-2">
             <i class="fab fa-github"></i>
-            <a
-              href="https://github.com/Shafiuddin05868"
-              class="hover:text-gray-900 underline"
+            <a href="https://github.com/Shafiuddin05868" class="underline"
               >GitHub</a
             >
           </div>
@@ -80,7 +79,7 @@
 
       <div class="flex gap-14 px-12">
         <!-- Main Content -->
-        <div class="w-[68%]">
+        <div class="w-[68%] main-content">
           <!-- Experience -->
           <section class="mb-5">
             <h2
@@ -92,17 +91,15 @@
 
             <div class="mb-5">
               <div class="mb-2">
-                <h3 class="text-lg font-bold text-gray-800">
+                <h3 class="text-xl font-medium text-gray-800">
                   <b>Junior Software Engineer</b> |
                   <b>Bit Byte Technology Ltd.</b>
                 </h3>
-                <p class="text-sm font-semibold">
+                <p class="text-sm font-medium">
                   <b>January 2025 - Present</b>
                 </p>
               </div>
-              <ul
-                class="list-disc list-inside text-gray-700 text-sm leading-relaxed space-y-1.5"
-              >
+              <ul class="list-disc list-outside ml-5 text-sm space-y-2">
                 <li>
                   Created <b>custom form builder</b> for the
                   <b>Bitcommerz e-commerce</b> builder with
@@ -141,15 +138,13 @@
 
             <div>
               <div class="mb-2">
-                <h3 class="text-lg font-bold text-gray-800">
+                <h3 class="text-lg font-medium text-gray-800">
                   <b>National University Hackathon</b> |
                   <b>Tejgaon College CSE Fest 2024</b>
                 </h3>
-                <p class="text-sm font-semibold"><b>December 2024</b></p>
+                <p class="text-sm font-medium"><b>December 2024</b></p>
               </div>
-              <ul
-                class="list-disc list-inside text-gray-700 text-sm leading-relaxed space-y-1.5"
-              >
+              <ul class="list-disc list-outside ml-5 text-sm space-y-2">
                 <li>
                   Participated in an
                   <b>8-hour intensive coding competition</b> focused on
@@ -178,56 +173,60 @@
             </h2>
             <hr class="border border-[2px] mb-3" />
 
-            <ul class="space-y-2 text-gray-700">
-              <li>
+            <ul class="space-y-3 text-sm">
+              <li class="leading-relaxed">
                 <a
                   href="https://bitcommerz.com/"
                   target="_blank"
-                  class="text-gray-700 hover:text-gray-900"
-                  ><b class="underline">Bitcommerz</b> : Build custom themes,
-                  widgets, form builder for e-commerce websites</a
+                  class="text-gray-900"
+                  ><b class="underline">Bitcommerz</b></a
+                ><span class="text-gray-800">
+                  : Build custom themes, widgets, form builder for e-commerce
+                  websites</span
                 >
               </li>
-              <li>
+              <li class="leading-relaxed">
                 <a
                   href="https://exportbangladesh.org/"
                   target="_blank"
-                  class="text-gray-700 hover:text-gray-900"
-                  ><b class="underline">Export Bangladesh</b> : Developed full
-                  admin dashboard for managing importers, exporters, products,
-                  role permissions, also works on maintanance of seller, buyer
-                  dashboard and homepage.
-                </a>
+                  class="text-gray-900"
+                  ><b class="underline">Export Bangladesh</b></a
+                ><span class="text-gray-800">
+                  : Developed full admin dashboard for managing importers,
+                  exporters, products, role permissions, also works on
+                  maintanance of seller, buyer dashboard and homepage.</span
+                >
               </li>
-              <li>
+              <li class="leading-relaxed">
                 <a
                   href="https://gadgetandgear.com/"
                   target="_blank"
-                  class="text-gray-700 hover:text-gray-900"
+                  class="text-gray-900"
                   ><b class="underline">Gadget and Gear</b></a
                 >
                 |
                 <a
                   href="https://ssgeshop.com/"
                   target="_blank"
-                  class="text-gray-700 hover:text-gray-900"
+                  class="text-gray-900"
                   ><b class="underline">Super Start Group</b></a
                 >
                 |
                 <a
                   href="https://qriusbd.com/"
                   target="_blank"
-                  class="text-gray-700 hover:text-gray-900"
-                  ><b class="underline">Qrius BD</b>
-                </a>
-                : Worked on maintanance, improvemnets and also on new features
-                of admin dashboard and homepage.
+                  class="text-gray-900"
+                  ><b class="underline">Qrius BD</b> </a
+                ><span class="text-gray-800">
+                  : Worked on maintanance, improvemnets and also on new features
+                  of admin dashboard and homepage.</span
+                >
               </li>
               <!-- <li>
                 <a
                   href="https://ssgeshop.com/"
                   target="_blank"
-                  class="text-gray-700 hover:text-gray-900"
+                  class="text-gray-800"
                   ><b class="underline">Super Start Group</b> : E-Commerce
                   Platform</a
                 >
@@ -236,7 +235,7 @@
                 <a
                   href="https://qriusbd.com/"
                   target="_blank"
-                  class="text-gray-700 hover:text-gray-900"
+                  class="text-gray-800"
                   ><b class="underline">Qrius BD</b> : E-Commerce Platform</a
                 >
               </li> -->
@@ -253,36 +252,36 @@
             <hr class="border border-[2px] mb-3" />
             <div class="flex gap-8">
               <div class="flex flex-col gap-1">
-                <h3 class="text-lg font-bold text-gray-800">
+                <h3 class="text-lg font-bold text-gray-900">
                   <b>Azher Uddin Ahmed</b>
                 </h3>
-                <p class="text-sm text-gray-700">
+                <p class="text-sm text-gray-800">
                   <b>Sr. Software Engineer, Bit Byte Technology Ltd.</b>
                 </p>
                 <a
                   href="mailto:azher305uddin@gmail.com"
-                  class="text-sm text-gray-700"
+                  class="text-sm text-gray-800"
                 >
                   azher305uddin@gmail.com
                 </a>
-                <a href="tel:+8801558225398" class="text-sm text-gray-700"
+                <a href="tel:+8801558225398" class="text-sm text-gray-800"
                   >+8801558225398</a
                 >
               </div>
               <div class="flex flex-col gap-1">
-                <h3 class="text-lg font-bold text-gray-800">
+                <h3 class="text-lg font-bold text-gray-900">
                   <b>Hasan Masrur</b>
                 </h3>
-                <p class="text-sm text-gray-700">
+                <p class="text-sm text-gray-800">
                   <b>Sr. Software Engineer, Bit Byte Technology Ltd.</b>
                 </p>
                 <a
                   href="mailto:hasanmasrur.cse.bd@gmail.com"
-                  class="text-sm text-gray-700"
+                  class="text-sm text-gray-800"
                 >
                   hasanmasrur.cse.bd@gmail.com
                 </a>
-                <a href="tel:+8801863742138" class="text-sm text-gray-700"
+                <a href="tel:+8801863742138" class="text-sm text-gray-800"
                   >+8801863742138</a
                 >
               </div>
@@ -300,16 +299,16 @@
               About Me
             </h2>
             <hr class="border border-[2px] mb-3" />
-            <p class="sidebar-text text-sm leading-relaxed text-justify">
+            <p class="text-gray-800 text-sm leading-relaxed text-justify">
               I am an enthusiastic <b>frontend-focused web developer</b> with
-              strong expertise in HTML, CSS, JavaScript, <b>React, Next.js, TypeScript, and Redux</b>, crafting responsive and user-friendly interfaces. Skilled in
-              Tailwind CSS, Shadcn for modern UI design, I also leverage
-              the <b>PERN stack</b> (PostgreSQL, Express, React, Node.js) for
-              seamless full-stack development. As a
-              Junior Software Engineer, I continuously enhance my skills
-              to deliver innovative, scalable web solutions. Passionate about
-              collaborating with dynamic teams, I am driven to create impactful
-              applications that align with business goals and user needs.
+              strong expertise in HTML, CSS, JavaScript,
+              <b>React, Next.js, TypeScript, and Redux</b>, crafting responsive
+              and user-friendly interfaces. Skilled in Tailwind CSS, Shadcn for
+              modern UI design, I also leverage the
+              <b>PERN stack</b> (PostgreSQL, Express, React, Node.js) for
+              seamless full-stack development. As a Junior Software Engineer, I
+              continuously enhance my skills to deliver innovative, scalable web
+              solutions. Passionate about collaborating with dynamic teams.
             </p>
           </section>
 
@@ -322,13 +321,13 @@
             </h2>
             <hr class="border border-[2px] mb-3" />
 
-            <div class="space-y-3 text-sm">
+            <div class="space-y-3.5 text-sm">
               <div>
-                <h3 class="font-bold text-gray-800 mb-1">Languages</h3>
+                <h3 class="font-bold text-gray-900 mb-1.5">Languages</h3>
                 <p class="sidebar-text">JavaScript, TypeScript, HTML, CSS</p>
               </div>
               <div>
-                <h3 class="font-bold text-gray-800 mb-1">
+                <h3 class="font-bold text-gray-900 mb-1.5">
                   Frameworks & Libraries
                 </h3>
                 <p class="sidebar-text">
@@ -336,17 +335,15 @@
                 </p>
               </div>
               <div>
-                <h3 class="font-bold text-gray-800 mb-1">Styling & UI</h3>
-                <p class="sidebar-text">
-                  Tailwind CSS, Shadcn, Metarial UI
-                </p>
+                <h3 class="font-bold text-gray-900 mb-1.5">Styling & UI</h3>
+                <p class="sidebar-text">Tailwind CSS, Shadcn, Metarial UI</p>
               </div>
               <div>
-                <h3 class="font-bold text-gray-800 mb-1">Database</h3>
+                <h3 class="font-bold text-gray-900 mb-1.5">Database</h3>
                 <p class="sidebar-text">PostgreSQL</p>
               </div>
               <div>
-                <h3 class="font-bold text-gray-800 mb-1">
+                <h3 class="font-bold text-gray-900 mb-1.5">
                   Tools & Technologies
                 </h3>
                 <p class="sidebar-text">Git, RESTful APIs, Claude code, MCP</p>
@@ -357,44 +354,42 @@
           <!-- Education -->
           <section class="mb-8">
             <h2
-              class="text-2xl font-bold uppercase tracking-wide text-gray-800 mb-2 flex items-center gap-2"
+              class="text-2xl font-bold uppercase tracking-wide text-gray-900 mb-2 flex items-center gap-2"
             >
               Education
             </h2>
             <hr class="border border-[2px] mb-3" />
 
-            <div class="mb-2">
-              <h3 class="text-lg font-bold text-gray-800">
+            <div class="mb-6">
+              <h3 class="text-lg font-bold text-gray-900">
                 National University
               </h3>
-              <p class="text-sm font-semibold mb-1 sidebar-text">Running</p>
-              <p class="sidebar-text text-sm">
+              <p class="text-sm font-semibold mb-1 text-gray-800">Running</p>
+              <p class="text-gray-800 text-sm">
                 B.Sc in Computer Science & Engineering
               </p>
             </div>
 
-            <div class="mb-2">
-              <h3 class="text-lg font-bold text-gray-800">
+            <div class="mb-6">
+              <h3 class="text-lg font-bold text-gray-900">
                 Govt. Dohar Nowabganj College
               </h3>
-              <p class="text-sm sidebar-text mb-1">
+              <p class="text-sm text-gray-800 mb-1">
                 2019 | GPA - 3.75 | Group - Science
               </p>
-              <p class="sidebar-text text-sm">
+              <p class="text-gray-800 text-sm">
                 Higher Secondary School Certificate
               </p>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold text-gray-800">
+              <h3 class="text-lg font-bold text-gray-900">
                 Bandura Holy Cross High School & College
               </h3>
-              <p class="text-sm sidebar-text mb-1">
+              <p class="text-sm text-gray-800 mb-1">
                 2017 | GPA - 4.32 | Group - Science
               </p>
-              <p class="sidebar-text text-sm">
-                Secondary School Certificate
-              </p>
+              <p class="text-gray-800 text-sm">Secondary School Certificate</p>
             </div>
           </section>
         </div>
