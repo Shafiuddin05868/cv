@@ -9,20 +9,19 @@
   <style>
     body { background: #f3f4f6; font-family: system-ui, -apple-system, sans-serif; }
     .cv-container { max-width: 900px; margin: 0 auto; background: white; }
-    h2 { font-size: 1.25rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; border-bottom: 2px solid #1f2937; padding-bottom: 4px; margin-top: 1rem; margin-bottom: 0.75rem; }
+    h2 { font-size: 1.25rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; border-bottom: 2px solid #1f2937; padding-bottom: 4px; margin-top: 1.5rem; margin-bottom: 0.75rem; }
     ul { list-style-type: disc; margin-left: 1.25rem; margin-top: 0.25rem; }
-    li { margin-bottom: 0.25rem; line-height: 1.5; font-size: 0.875rem; color: #1f2937; }
+    li { margin-bottom: 0.4rem; line-height: 1.5; font-size: 0.875rem; color: #1f2937; }
     p, a, span { font-size: 0.875rem; line-height: 1.5; }
     .contact-row { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 0.5rem; margin-bottom: 0.75rem; }
-    .skill-category { display: flex; align-items: baseline; gap: 0.35rem; margin-bottom: 0.15rem; }
+    .skill-category { display: flex; align-items: baseline; gap: 0.35rem; margin-bottom: 0.4rem; }
     .skill-category h3 { font-weight: 700; color: #1f2937; }
     .skill-category h3::after { content: ":"; }
     .skill-category p { color: #374151; }
   </style>
 </head>
 <body class="p-4">
-  <div class="cv-container p-6 shadow-lg">
-
+  <div class="cv-container p-6">
     <!-- Header -->
     <h1 class="text-3xl font-bold uppercase tracking-wide">Shafiuddin Chowdury</h1>
     <div class="flex flex-wrap justify-between items-center mt-1">
@@ -41,7 +40,7 @@
 
     <!-- Summary -->
     <h2>Professional Summary</h2>
-    <p class="text-gray-700">Frontend-focused full-stack developer with 1+ year of experience building production React/Next.js applications. Deployed 4 live apps on VPS (<a href="https://ezymemo.com" class="text-blue-600 underline">EzyMemo.com</a>, LearnJapanese.org). Looking for remote contract or full-time work at 30k-50k BDT/month.</p>
+    <p class="text-gray-700">Frontend-focused full-stack developer with 1+ year of experience building production React/Next.js applications and the PERN stack. Deployed 4 live apps on VPS including <a href="https://ezymemo.com" class="text-blue-600 underline">EzyMemo.com</a>. Expert in building responsive, user-friendly UIs and custom web tools. Seeking remote opportunities (30k-50k BDT/month).</p>
 
     <!-- Experience -->
     <h2>Experience</h2>
@@ -73,10 +72,10 @@
     <!-- Projects -->
     <h2>Featured Projects</h2>
     <ul>
-      <li><strong class="text-gray-800">🔗 <a href="https://ezymemo.com" target="_blank" class="text-blue-600 underline">EzyMemo.com</a>:</strong> My own product — free online store builder for social commerce sellers. Currently used by small businesses.</li>
-      <li><strong class="text-gray-800">🔗 <a href="https://exportbangladesh.org" target="_blank" class="text-blue-600 underline">Export Bangladesh</a>:</strong> Full admin dashboard for importers/exporters with role-based permissions and analytics.</li>
-      <li><strong class="text-gray-800">🔗 <a href="https://learn-japanese.org" target="_blank" class="text-blue-600 underline">LearnJapanese.org</a>:</strong> Language learning tool with interactive quizzes (deployed on VPS).</li>
-      <li><strong class="text-gray-800">🔗 <a href="https://bitcommerz.com" target="_blank" class="text-blue-600 underline">Bitcommerz</a>:</strong> Custom themes, widgets, and form builder for e-commerce websites.</li>
+      <li><strong class="text-gray-800">🔗 <a href="https://ezymemo.com" target="_blank" class="text-blue-600 underline">EzyMemo.com</a>:</strong> SaaS store builder for social commerce, used by active small businesses.</li>
+      <li><strong class="text-gray-800">🔗 <a href="https://exportbangladesh.org" target="_blank" class="text-blue-600 underline">Export Bangladesh</a>:</strong> Admin dashboard with RBAC, analytics, and importer/exporter management.</li>
+      <li><strong class="text-gray-800">🔗 <a href="https://learn-japanese.org" target="_blank" class="text-blue-600 underline">LearnJapanese.org</a>:</strong> Interactive language tool with quizzes and VPS deployment.</li>
+      <li><strong class="text-gray-800">🔗 <a href="https://bitcommerz.com" target="_blank" class="text-blue-600 underline">Bitcommerz</a>:</strong> Custom e-commerce themes, widgets, and advanced form builder.</li>
     </ul>
 
     <!-- Skills (all in one column) -->
@@ -101,16 +100,11 @@
       <h3>DevOps & Tools</h3>
       <p>Docker, Git, Linux, VPS Deployment, RESTful APIs</p>
     </div>
-
-    <!-- About Me -->
-    <h2>About Me</h2>
-    <p class="text-gray-700">Enthusiastic frontend-focused full-stack developer with expertise in React, Next.js, TypeScript, and the PERN stack. I build responsive, user-friendly applications and have deployed multiple production apps on my own VPS. Looking for remote opportunities where I can contribute immediately.</p>
-
     <!-- Education (no CGPA) -->
     <h2>Education</h2>
-    <div class="mb-2">
+    <div class="flex justify-between items-baseline">
       <h3 class="font-bold text-gray-800">National University</h3>
-      <p class="text-sm text-gray-600">2023 | B.Sc. in Computer Science & Engineering</p>
+      <p class="text-sm text-gray-600">B.Sc. in Computer Science & Engineering | 2023</p>
     </div>
 
   </div>
